@@ -1,0 +1,151 @@
+/* common css st  */
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    /* display: inline-block; */
+}
+.containar{
+    width: 1170px;
+    margin: 0 auto;
+   
+}
+/* common css end */
+
+
+
+/* Hader part st  */
+#header{
+background: #1C1E53;
+
+}
+
+.loghoMinu{
+    display: flex;
+    justify-content: space-between;
+}
+.logho{
+    width: 15%;
+    line-height: 64px;
+    padding-top: 20px;
+}
+.menu{
+   width:60% ;
+   text-align: right;
+   
+
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 75px;
+
+}
+.menu ul li a{
+color: #BBBBCB;;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 500;
+transition: .4s;
+
+}
+.menu ul li a:hover{
+    color: #fff;
+}
+
+.baton a{
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 64px;
+    padding: 16px 48px;
+   
+}
+.baton{
+    width:25% ;
+    margin-top: 7px;
+    
+    margin-left: auto;
+
+}
+/* header prat end  */
+
+
+
+/* Baner part st  */
+#banerPart{
+    background:#1C1E53 ;
+    padding-top: 170px;
+    padding-bottom: 125px;
+}
+.banar{
+    display: flex;
+}
+.banarLeft{
+    width: 50%;
+
+}
+
+.banarRight{
+
+    width: 50%;
+}
+.banarLeft h1{
+color: #FFF;
+font-family: 'Poppins', sans-serif;
+font-size: 54px;
+font-weight: 600;
+line-height: 74px; 
+padding-bottom: 18px;
+}
+
+.banarLeft p{
+color: #FFF;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+padding-right: 51px;
+margin-bottom: 48px;
+
+}
+.banarLeft a{
+    border-radius: 41px;
+    background: #FCD980;
+    padding: 16px 56px;
+    display: inline-flex;
+    color: #1B1C2B;
+    font-family: 'Manrope', sans-serif;
+font-size: 18px;
+
+font-weight: 600;
+line-height: 32px; 
+}
+
+.banarLeft button{
+    background: none;
+    border: none;
+    margin-left: 15px;
+    color: var(--White, #FFF);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+    font-weight: 500;
+    line-height: 28px; 
+}
+.banarLeft button i{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+  
+
